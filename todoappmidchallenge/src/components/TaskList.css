@@ -1,0 +1,25 @@
+.tasklist  {
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+.tasklist ul {
+    display: grid;
+    grid-template-columns: repeat(
+      auto-fit,
+      minmax(
+        200px,
+        2fr
+      )
+    );
+    gap: 2rem;
+    list-style: none; 
+  } 
+.TaskListLi {
+    width: 300px;
+    padding: 10px;
+    margin: 10px;
+    background-color: rgb(225, 203, 245);
+    border: 1px solid;
+    border-radius: 5px;
+}
